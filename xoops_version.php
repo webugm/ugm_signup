@@ -3,7 +3,7 @@ $modversion = [];
 
 //---模組基本資訊---//
 $modversion['name'] = '活動報名名稱';
-$modversion['version'] = 1.00;
+$modversion['version'] = 1.01;
 $modversion['description'] = '活動報名說明';
 $modversion['author'] = 'ugm';
 $modversion['credits'] = 'ugm';
@@ -15,19 +15,19 @@ $modversion['dirname'] = basename(dirname(__FILE__));
 
 //---模組狀態資訊---//
 $modversion['release_date'] = '2021/10/11';
-$modversion['module_website_url'] = 'http://模組官網網址';
-$modversion['module_website_name'] = '模組官網名稱';
+$modversion['module_website_url'] = 'https://github.com/webugm/ugm_signup';
+$modversion['module_website_name'] = 'ugm_signup';
 $modversion['module_status'] = 'release';
-$modversion['author_website_url'] = 'http://作者網站網址';
-$modversion['author_website_name'] = '作者網站名稱';
-$modversion['min_php'] = 5.4;
+$modversion['author_website_url'] = 'https://www.ugm.com.tw/';
+$modversion['author_website_name'] = '育將電腦工作室';
+$modversion['min_php'] = 7.0;
 $modversion['min_xoops'] = '2.5';
 
 //---paypal資訊---//
 $modversion['paypal'][] = [
-    'business' => '作者@的Email',
-    'item_name' => 'Donation : 贊助對象名稱',
-    'amount' => 0,
+    'business' => 'tawan158@gmail.com',
+    'item_name' => 'Donation : UGM',
+    'amount' => 10,
     'currency_code' => 'USD',
 ];
 
@@ -53,8 +53,8 @@ $modversion['hasMain'] = 1;
 // $modversion['onUninstall'] = "include/onUninstall.php";
 
 //---樣板設定---//
-$modversion['templates'][] = ['file' => '模組目錄_admin.tpl', 'description' => '後台共同樣板'];
-$modversion['templates'][] = ['file' => '模組目錄_index.tpl', 'description' => '前台共同樣板'];
+$modversion['templates'][] = ['file' => 'ugm_signup_admin.tpl', 'description' => '後台共同樣板'];
+$modversion['templates'][] = ['file' => 'ugm_signup_index.tpl', 'description' => '前台共同樣板'];
 
 //---搜尋---//
 // $modversion['hasSearch'] = 1;
